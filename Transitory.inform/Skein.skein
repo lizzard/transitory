@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Transitory</command>
+        <result xml:space="preserve">
+
+
+Transitory
+An Interactive Fiction by lizzard
+Release 1 / Serial number 200810 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Home of the Traveller
+You recognize the familiar surroundings of your home. A hallway leads north. 
+
+You can see a welcome sign here.
+
+9:00 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+            <child nodeId="node-1015"></child>
+            <child nodeId="node-1029"></child>
+            <child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">look sign</command>
+        <result xml:space="preserve">Welcome, traveller! Thank you for playtesting. 
+
+To start with: You should look at your inventory (type "i" to see it).
+
+Examine each object you're carrying (type "x"" to examine).
+
+9:01 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying: 
+  a magic marker
+  an ART card (fizzing happily)
+
+9:02 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">x marker</command>
+        <result xml:space="preserve">A plain old magic marker. 
+
+9:03 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">x card</command>
+        <result xml:space="preserve">A plastic card with space for four letters. They currently read _ART.
+
+The ART card is currently switched off.
+
+9:04 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying: 
+  a magic marker
+  an ART card
+
+9:01 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">xx card</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+9:01 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">x card</command>
+        <result xml:space="preserve">A plastic card with space for four letters. They currently read _ART.
+
+The ART card is currently switched off.
+
+9:02 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">x marker</command>
+        <result xml:space="preserve">A plain old magic marker. 
+
+9:03 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">switch on card</command>
+        <result xml:space="preserve">You switch the ART card on.
+
+9:04 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Type HELP followed by the name of a topic.
+
+ Topic            Description
+---------------------------------------
+ commands:  A list of basic commands in the game
+ marker:  Hints about the magic marker
+ card:  Big hints about the (B)ART card
+ exits:  Using the EXITS command
+ murals:  The art and murals
+ score:  Things that make your score go up
+ bugs:  How to report bugs
+
+9:01 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+            <child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">help marker</command>
+        <result xml:space="preserve">Try writing on things that seem a little bit magical.
+
+9:02 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+9:03 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">You can "go" in all 8 directions (north, northeast, etc) as well as up and down. 
+ You can also take things, open things, sit on things, and stand up. 
+
+ look: shows you the description of the room you're in 
+ i:  lists what you are carrying or wearing. Short for "inventory"  
+ n: shorthand for "go north" 
+ x: lets you examine something more closely 
+ x self: look at yourself 
+ talk to (person): converse with a character in the game 
+ wear: put on a wearable object 
+ exits: shows you a list of possible exits from a room
+ friends: lists the people you know in the game 
+ works: lists the artworks you've experienced 
+ score: shows your current score 
+
+
+9:02 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">exits</command>
+        <result xml:space="preserve">You can go north (Bedroom) or south (Osage Alley) from here.
+
+9:01 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Home of the Traveller
+You recognize the familiar surroundings of your home. A hallway leads north. 
+
+You can see a welcome sign here.
+
+9:02 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">helop</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+9:02 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Type HELP followed by the name of a topic.
+
+ commands:  A list of basic commands in the game
+
+9:03 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">You can "go" in all 8 directions (north, northeast, etc) as well as up and down. 
+ You can also take things, open things, sit on things, and stand up. 
+
+ look: shows you the description of the room you're in 
+ i:  lists what you are carrying or wearing. Short for "inventory"  
+ n: shorthand for "go north" 
+ x: lets you examine something more closely 
+ x self: look at yourself 
+ talk to (person): converse with a character in the game 
+ wear: put on a wearable object 
+ exits: shows you a list of possible exits from a room
+ friends: lists the people you know in the game 
+ works: lists the artworks you've experienced 
+ score: shows your current score 
+
+
+9:04 am &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
